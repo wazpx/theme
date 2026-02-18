@@ -3,9 +3,9 @@
   "codeFont": "",
   "fontWeight": 400,
 
-  "gap": "12px",
-  "dividerThickness": "4px",
-  "borderThickness": "1px",
+  "gap": 12,
+  "dividerThickness": 4,
+  "borderThickness": 1,
 
   "animations": true,
   "listItemTransition": "0.2s ease",
@@ -18,11 +18,13 @@
   "subtleTopBarTitle": false,
 
   "customWindowControls": true,
-  "windowControlSize": "14px",
+  "windowControlSize": 14,
 
   "customDmsIcon": "custom",
   "dmsIconSvgUrl": "https://refact0r.github.io/midnight-discord/assets/Font_Awesome_5_solid_moon.svg",
   "dmsIconSvgSize": "90%",
+
+  "customDmsBackground": "off",
 
   "backgroundImage": true,
   "backgroundImageUrl": "https://i.ibb.co/Kz5DB9Ds/IMG-0722.png",
@@ -30,10 +32,10 @@
   "transparencyTweaks": true,
   "removeBgLayer": false,
   "panelBlur": true,
-  "blurAmount": "12px",
+  "blurAmount": 12,
 
   "customChatbar": "separated",
-  "chatbarHeight": "56px",
+  "chatbarHeight": 56,
 
   "smallUserPanel": true,
 
