@@ -3,37 +3,5 @@
   "author": "You",
   "version": "1.0",
   "description": "Midnight style glass blur theme",
-
-  "css": ":root {\
-  --bg-1: hsla(220,15%,20%,0.6);\
-  --bg-2: hsla(220,15%,16%,0.6);\
-  --bg-3: hsla(220,15%,13%,0.6);\
-  --bg-4: hsla(220,15%,10%,0.6);\
-  }\
-\
-body {\
-  background: url(https://i.ibb.co/Kz5DB9Ds/IMG-0722.png) center/cover fixed no-repeat !important;\
-}\
-\
-[class*=chat],\
-[class*=container],\
-[class*=content] {\
-  backdrop-filter: blur(12px) !important;\
-  background: var(--bg-4) !important;\
-}\
-\
-[class*=sidebar] {\
-  background: var(--bg-3) !important;\
-  backdrop-filter: blur(12px) !important;\
-}\
-\
-[class*=membersWrap] {\
-  background: var(--bg-3) !important;\
-  backdrop-filter: blur(12px) !important;\
-}\
-\
-[class*=panels] {\
-  background: var(--bg-3) !important;\
-  backdrop-filter: blur(12px) !important;\
-}"
+  "css": ":root { --bg-1: hsla(220,15%,20%,0.6); --bg-2: hsla(220,15%,16%,0.6); --bg-3: hsla(220,15%,13%,0.6); --bg-4: hsla(220,15%,10%,0.6);} body { background: url(https://i.ibb.co/Kz5DB9Ds/IMG-0722.png) center/cover fixed no-repeat !important;} [class*=chat],[class*=container],[class*=content] { backdrop-filter: blur(12px) !important; background: var(--bg-4) !important;} [class*=sidebar] { background: var(--bg-3) !important; backdrop-filter: blur(12px) !important;} [class*=membersWrap] { background: var(--bg-3) !important; backdrop-filter: blur(12px) !important;} [class*=panels] { background: var(--bg-3) !important; backdrop-filter: blur(12px) !important;}"
 }
