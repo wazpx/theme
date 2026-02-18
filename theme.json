@@ -1,61 +1,15 @@
 {
   "font": "Figtree",
-  "codeFont": "",
   "fontWeight": 400,
-
   "gap": 12,
   "dividerThickness": 4,
   "borderThickness": 1,
-
   "animations": true,
-  "listItemTransition": "0.2s ease",
-  "dmsIconSvgTransition": "0.4s ease",
-  "borderHoverTransition": "0.2s ease",
-
-  "topBarHeight": "var(--gap)",
-  "topBarButtonPosition": "titlebar",
-  "topBarTitlePosition": "off",
-  "subtleTopBarTitle": false,
-
-  "customWindowControls": true,
-  "windowControlSize": 14,
-
-  "customDmsIcon": "custom",
-  "dmsIconSvgUrl": "https://refact0r.github.io/midnight-discord/assets/Font_Awesome_5_solid_moon.svg",
-  "dmsIconSvgSize": "90%",
-
-  "customDmsBackground": "off",
-
   "backgroundImage": true,
   "backgroundImageUrl": "https://i.ibb.co/Kz5DB9Ds/IMG-0722.png",
-
-  "transparencyTweaks": true,
-  "removeBgLayer": false,
   "panelBlur": true,
   "blurAmount": 12,
-
   "customChatbar": "separated",
   "chatbarHeight": 56,
-
-  "smallUserPanel": true,
-
-  "colors": {
-    "text0": "hsla(220, 15%, 10%, 1)",
-    "text1": "hsl(220, 45%, 95%)",
-    "text2": "hsl(220, 25%, 85%)",
-    "text3": "hsl(220, 20%, 70%)",
-    "text4": "hsl(220, 15%, 50%)",
-    "text5": "hsl(220, 15%, 35%)",
-
-    "bg1": "hsla(220, 15%, 20%, 0.6)",
-    "bg2": "hsla(220, 15%, 16%, 0.6)",
-    "bg3": "hsla(220, 15%, 13%, 0.6)",
-    "bg4": "hsla(220, 15%, 10%, 0.6)",
-
-    "accent1": "var(--text-2)",
-    "accent2": "var(--text-3)",
-    "accent3": "var(--text-4)",
-    "accent4": "var(--text-3)",
-    "accent5": "var(--text-2)"
-  }
+  "smallUserPanel": true
 }
