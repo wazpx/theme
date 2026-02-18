@@ -1,6 +1,65 @@
 {
-  "name": "TEST",
-  "author": "test",
-  "version": "1",
-  "css": "* { color: red !important; }"
+  "name": "Midnight Glass",
+  "description": "Midnight style glass blur theme for Enmity iOS/WSF",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Dimitri",
+      "id": "none"
+    }
+  ],
+  "theme_color_map": {
+    "HEADER_PRIMARY": ["#ffffff", "#23232d"],
+    "HEADER_SECONDARY": ["#dcdcdc", "#3d4858"],
+    "TEXT_NORMAL": ["#e0e0e0", "#2e3338"],
+    "TEXT_MUTED": ["#9a9a9a", "#747f8d"],
+    "INTERACTIVE_NORMAL": ["#dcdcdc", "#3d4858"],
+    "INTERACTIVE_HOVER": ["#f0f0f0", "#2e3338"],
+    "INTERACTIVE_ACTIVE": ["#43b581", "#1e1e38"],
+    "INTERACTIVE_MUTED": ["#747f8d", "#c7ccd1"],
+    "BACKGROUND_PRIMARY": ["#121212", "#ffffff"],
+    "BACKGROUND_SECONDARY": ["#1a1a1a", "#f2f3f5"],
+    "BACKGROUND_SECONDARY_ALT": ["#1a1a1a", "#ebedef"],
+    "BACKGROUND_TERTIARY": ["#14161b", "#e3e5e8"],
+    "BACKGROUND_ACCENT": ["#43b581", "#747f8d"],
+    "BACKGROUND_FLOATING": ["#1c1c1c", "#ffffff"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#1c1c1c", "#f8f9f9"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#121212", "#ffffff"],
+    "BACKGROUND_NESTED_FLOATING": ["#1a1a1a", "#ffffff"],
+    "BACKGROUND_MESSAGE_HOVER": ["rgba(255,255,255,0.02)", "#ffffff"],
+    "BACKGROUND_MODIFIER_HOVER": ["rgba(255,255,255,0.02)", "hsla(214, 9.9%, 50.4%, 0.08)"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["rgba(255,255,255,0.03)", "hsla(214, 9.9%, 50.4%, 0.16)"],
+    "BACKGROUND_MODIFIER_SELECTED": ["rgba(255,255,255,0.04)", "hsla(214, 9.9%, 50.4%, 0.24)"],
+    "BACKGROUND_MODIFIER_ACCENT": ["transparent", "hsla(240, 7.7%, 2.5%, 0.08)"],
+    "SCROLLBAR_THIN_THUMB": ["#2a1858", "hsla(217,7.6%,33.5%,0.3)"],
+    "SCROLLBAR_THIN_TRACK": ["transparent", "hsla(0,0%,0%,0)"],
+    "SCROLLBAR_AUTO_THUMB": ["#2a1858", "#cccccc"],
+    "SCROLLBAR_AUTO_TRACK": ["rgba(0,0,0,0.1)", "#f2f2f2"],
+    "CHANNELTEXTAREA_BACKGROUND": ["#111111", "#ebedef"],
+    "CHANNELS_DEFAULT": ["#b6b6b6", "#475d77"],
+    "TEXT_LINK": ["#43b581", "#000000"],
+    "KEYBOARD": ["#0f0c23", "#ffffff"]
+  },
+  "colours": {
+    "PRIMARY_DARK": "#1a1a1a",
+    "PRIMARY_DARK_100": "#ffffff",
+    "PRIMARY_DARK_200": "#e0e0e0",
+    "PRIMARY_DARK_300": "#f0f0f0",
+    "PRIMARY_DARK_400": "#bebee3",
+    "PRIMARY_DARK_500": "#697eab",
+    "PRIMARY_DARK_600": "#17191b",
+    "PRIMARY_DARK_700": "#1a1b21",
+    "BRAND_NEW": "#43b581",
+    "STATUS_RED": "#c84c4c",
+    "STATUS_GREEN_600": "#43b581",
+    "STATUS_YELLOW": "#d9a23c"
+  },
+  "unsafe_colors": {
+    "CHAT_GREY": "#13151a"
+  },
+  "background": {
+    "blur": 0.2,
+    "url": "https://i.ibb.co/Kz5DB9Ds/IMG-0722.png",
+    "alpha": 1.0
+  }
 }
